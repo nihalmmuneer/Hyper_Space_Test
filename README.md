@@ -36,8 +36,8 @@ The project is styled using Tailwind CSS and written in TypeScript. ESLint and P
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/nihalmmuneer/hyperspace-app.git
-   cd hyperspace-app
+   https://github.com/nihalmmuneer/Hyper_Space_Test.git
+   cd Hyper_Space_Test
 
 2. **Install dependencies:**
     ```bash

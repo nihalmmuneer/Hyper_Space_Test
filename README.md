@@ -1,40 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hyperspace Test Project
 
-## Getting Started
+This repository contains a Next.js project created as part of the application process for the Junior Front-end Developer position at Hyperspace. The project includes two pages demonstrating specific requirements.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Pages](#pages)
+  - [Page 1: Popup with Blurred Background](#page-1-popup-with-blurred-background)
+  - [Page 2: Creative Html/Css Animation](#page-2-creative-html-css-animation)
+- [Linting and Formatting](#linting-and-formatting)
+- [Deployment](#deployment)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+This project is a simple Next.js application featuring two pages:
+1. A page with a button that opens a popup, blurring the background.
+2. A page showcasing a creative canvas animation.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+The project is styled using Tailwind CSS and written in TypeScript. ESLint and Prettier are configured for code linting and formatting.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
-## Learn More
+## Setup and Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/nihalmmuneer/hyperspace-app.git
+   cd hyperspace-app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. **Install dependencies:**
+    ```bash
+    npm install
 
-## Deploy on Vercel
+3. **Run the development server:**
+   ```bash
+   npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open http://localhost:3000 in your browser to see the application.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Usage
+Navigate to the home page to find links to the two pages demonstrating the required features.
+
+## Pages
+**Page 1: Popup with Blurred Background**
+This page features a button that opens a popup. When the popup is opened, the background is blurred.
+
+  - **File: pages/index.tsx**
+  - **[Url]:**http://localhost:3000
+
+**Page 2: Creative Css Animation**
+This page demonstrates a creative animation using the HTML5 <canvas> element. The animation is a simple pulsating circle.
+
+- **File: pages/css-animation.tsx**
+- **[Url]:**http://localhost:3000/css-animation
+
+## Linting and Formatting
+This project uses ESLint and Prettier for code quality and formatting.
+
+- **Lint the code:**
+    ```bash
+    npm run lint
+
+- **Format the code:**
+    ```bash
+    npm run format
+
+## Deployment
+This application is deployed on Vercel. You can access the live version [here](https://hyper-space-test.vercel.app/)
